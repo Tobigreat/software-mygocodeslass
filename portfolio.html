@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Oluwatobi Ajasa Portfolio</title>
+</head>
+<body>
+    <header>
+    <h1>Oluwatobi Ajasa Profile</h1>
+
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+<<<<<<< HEAD
+<!--  -->
+<main>
+    <section id="Home">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Hello! Welcome to my personal portfolio website.</p>
+    </section>
+    
+    <section id="About Me">
+    <h2>About Me</h2>
+
+    <img src="profilepix.jpg" alt="My profile photograph" width="200">
+
+    <p>
+        I am an aspiring technology professional interested in
+        software development, Python, data analysis, and computer vision.
+        I enjoy solving problems and building practical technology solutions.
+    </p>
+=======
+    <section id="home" aria-labelledby="home-heading">
+      <h2 id="home-heading">Hello, welcome to my portfolio</h2>
+      <p>I am learning and building practical projects in software development, Python, data analysis, and computer vision.</p>
+    </section>
+
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <img src="profilepix.jpg" alt="Portrait of me" width="180" height="180">
+      <p>Hello! I am an aspiring technology professional who enjoys solving problems with code and turning data into useful insights. I am developing my skills through hands-on projects and continuous learning.</p>
+>>>>>>> 6c4fcff0b63aa6944d13892a1514bc5a45ea598d
+    </section>
+
+    <section id="work" aria-labelledby="work-heading">
+      <h2 id="work-heading">My Work</h2>
+<<<<<<< HEAD
+      <p>Here are examples of projects I have worked on or plan to develop.</p>
+=======
+      <p>Here are examples of projects I have worked on or plan to develop. Replace the sample links with your actual project URLs.</p>
+>>>>>>> 6c4fcff0b63aa6944d13892a1514bc5a45ea598d
+      <table>
+        <caption>Selected projects</caption>
+        <thead>
+          <tr>
+            <th scope="col">Project Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Flood Segmentation</td>
+            <td>Deep learning to label every pixel in an image.</td>
+            <td><a href="https://github.com/Tobigreat/Flood-segmentation" target="_blank" rel="noopener noreferrer">View project</a></td>
+          </tr>
+          <tr>
+            <td>Crop-Recommender-Systems</td>
+            <td>SmartCrop AI is a machine-learning-powered application.</td>
+            <td><a href="https://github.com/Tobigreat/Crop-Recommender-Systems" target="_blank" rel="noopener noreferrer">View project</a></td>
+          </tr>
+          <tr>
+            <td>Demand Forcasting Using Machine Learning</td>
+            <td>Predict future product demand using Machine Learning and historical sales data.</td>
+            <td><a href="https://github.com/Tobigreat/Product-demand-forecasting-" target="_blank" rel="noopener noreferrer">View project</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="resume" aria-labelledby="resume-heading">
+      <h2 id="resume-heading">Resume</h2>
+      <p><a href="Oluwatobi_Ajasa_DCV.pdf" download> View my résumé (PDF)</a></p>
+      <h3>Audio Introduction</h3>
+      <p> My introduction recording<code><intro.m4a></intro></code>  file.</p>
+      <audio controls>
+        <source src="My Audio Intro.m4a" type="audio/mpeg">
+        Your browser does not support the audio element. You can download or listen to the introduction using a supported browser.
+      </audio>
+    </section>
+
+<<<<<<< HEAD
+    <section id="contact">
+    <h2>Contact Me</h2>
+
+    <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <br><br>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+    <section id="ai-review">
+    <h2>AI Code Review</h2>
+
+    <p>
+        I used an AI assistant to review the projects table.
+        It recommended semantic table elements such as
+        thead, tbody, caption, and th scope="col" to improve
+        accessibility and organization. I kept these suggestions
+        and customized the project descriptions to match my portfolio.
+    </p>
+    <p>The AI recommended using
+    <code>&lt;thead&gt;</code>,
+    <code>&lt;tbody&gt;</code>,
+    <code>&lt;caption&gt;</code>, and
+    <code>&lt;th scope="col"&gt;</code>
+    to improve the table's accessibility.</p>
+</section>
+=======
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Me</h2>
+      <form action="#" method="post">
+        <label for="name"> Full Name</label>
+        <input type="text" id="name" name="name" autocomplete="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" autocomplete="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+      <p><small>Note: this sample form needs a backend or form service to send messages. The form will not deliver email by itself.</small></p>
+    </section>
+
+    <section id="ai-review" aria-labelledby="ai-review-heading">
+      <h2 id="ai-review-heading">AI Code Review</h2>
+      <p><strong>AI suggestion:</strong> Use a semantic <code>&lt;table&gt;</code> with a <code>&lt;caption&gt;</code>, <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code>, and column headers using <code>scope="col"</code>. This makes the project list easier to understand for browsers and assistive technologies.</p>
+      <p><strong>My reflection:</strong> I kept the table structure and accessible column headers because they make the project information clear. I changed the sample project descriptions and links to fit my portfolio, and I will replace the placeholder links with real project URLs before publishing.</p>
+      <p>For the assignment evidence, take a screenshot of the AI suggestion and reflection shown here or of the AI assistant's original response using your computer's screenshot tool.</p>
+    </section>
+>>>>>>> 6c4fcff0b63aa6944d13892a1514bc5a45ea598d
+  </main>
+
+  <footer>
+    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
